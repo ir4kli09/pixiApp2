@@ -21,7 +21,6 @@ function seveCubePosition(back, saveKey) {
             let saveRect = new SaveRects();
             saveRect.id = key;
             saveRect.color = back.children[key]["tint"];
-            console.log(back.children[key]["tint"]);
             saveRect.coord.x = back.children[key]["x"];
             saveRect.coord.y = back.children[key]["y"];
             saveRect.name = back.children[key]["name"]; 
