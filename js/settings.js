@@ -25,8 +25,8 @@ let imageColor = [
 let appSetting = {
     width: 500,
     height: 500,
-    screenX: 800,
-    screenY: 800,
+    screenX: 300,
+    screenY: 300,
     scale: 1,
     targetColor: imageColor[0],
     backColor: 0xffffff,
@@ -48,7 +48,6 @@ let back = new DrawRect(
     0,
     0xffa500
 );
-
 //уже не нужен
 let penColors = {
     red:        0xfe0008, // красный

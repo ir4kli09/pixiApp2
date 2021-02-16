@@ -20,9 +20,13 @@ function onButtonDown() {
     } 
 }
 function onDragStart(event){
-    this.data = event.data;
-    this.alpha = 0.95;
-    this.dragging = true;
+    console.log(event.data.originalEvent)
+    if(event.data.originalEvent.ctrlKey){
+        this.data = event.data;
+        this.alpha = 0.95;
+        this.dragging = true;
+    }
+
 }
 function onDragMove(){
     if (this.dragging) {
